@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>CGPA Calculator</title>
+</head>
+<body id="body">
+    <div class="main">
+
+        <div class="display">
+            <div id="heading">
+                <img src="images/download-1.png" alt="CGPA calculator logo">
+                <h1>Your CGPA is:</h1>
+            </div>
+
+            <div class="subheading">
+                <ul>
+                    <li>Course Code</li>
+                    <li>Grade</li>
+                    <li>Unit</li>
+                </ul>
+            </div>
+
+            <div class="inputs">
+                <div class="inputKeys">
+                    <form action="">
+                        <div>
+                            <label for="">Course Code: </label>
+                            <input type="text" maxlength="6" id="courseCode" required>
+                        </div>
+
+                        <div>
+                            <label for="" class="labelGrade">Grade: </label>
+                            <select name="grades" id="grades" required>
+                                <option value="5" selected>A</option>
+                                <option value="4">B</option>
+                                <option value="3">C</option>
+                                <option value="2">D</option>
+                                <option value="1">E</option>
+                                <option value="0">F</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="">Unit: </label>
+                            <select name="units" id="units" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                        </select>
+                        </div>
+                    </form>
+                </div>
+
+                <button id="add">Add Details</button>
+                <button id="calculate">Calculate</button>
+                <button id="clear">Clear</button>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <!-- <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 4</li>
+                    <li>fsc115 a 5</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li> 
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 4</li>
+                    <li>fsc115 a 5</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>
+                    <li>fsc115 a 3</li>  -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h4>Made by Erioluwa</h4> 
+            <div class="socialHandle">
+                <div><a href="http://twitter.com/Cold_Coldie"><i class="fab fa-twitter" aria-hidden="true"></i>@Cold_Coldie</a></div>
+                <div><a href="https://www.facebook.com/erioluwa.ogedengbe.3"><i class="fab fa-facebook-f    "></i>@Ogedengbe Erioluwa</a></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
